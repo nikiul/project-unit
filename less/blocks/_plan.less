@@ -1,0 +1,111 @@
+.plan {
+    position: relative;
+    width: 303px;
+    margin-right: 31px;
+    padding: 38px 33px 40px ;
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 8px;
+    text-align: center;
+    transition: 0.2s ease-in;
+
+    &:last-child {
+        margin-right: 0;
+    }
+
+    &:hover {
+        background-color: rgba(48, 79, 254, 0.95);
+        box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1), 0 10px 30px rgba(0, 0, 0, 0.05);
+    }
+
+    &::before {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 1px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 230px;
+        background-color: rgba(255, 255, 255, 0.05);
+    }
+}
+
+.plan-tariff {
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.plan-tariff__title {
+    color: #b3b3b3;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 2.8px;
+}
+
+.plan-tariff__price {
+    margin-bottom: 17px;
+    color: #ffffff;
+    font-size: 80px;
+    font-weight: 700;
+    letter-spacing: 4px;
+}
+
+.plan-tariff__time {
+    display: inline-block;
+    padding: 2px 11px 2px 18px;
+    border-radius: 13px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2.4px;
+    line-height: 20px;
+}
+
+.plan-offers {
+    margin-bottom: 26px;
+    text-align: center;
+}
+
+.plan-offers_list {
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 40px;
+    list-style-type: none;
+}
+
+.plan-offers_list-item {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.plan-button {
+    margin-bottom: 0px;
+    padding: 18px 29px 18px 29px;
+    background-color: transparent;
+    border-radius: 25px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: 2.4px;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+
+        &:hover, &:focus {
+            outline: none;
+            background-color: #ffffff;
+            color: #666666;
+        }
+    }
+    
