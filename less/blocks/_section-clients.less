@@ -4,6 +4,10 @@
     background-repeat: no-repeat;
     background-position: center 156px;
     background-size: auto;
+
+    @media (max-width: 768px){
+
+    }
 }
 
 .section-clients__title {
@@ -17,8 +21,12 @@
 }
 
 .section-clients__carousel {
-    width: 770px;
+    width: 80%;
     margin: 0 auto;
+
+    @media (max-width: 768px){
+        width: 60%;
+    }
 }
 
 .testimonial {
@@ -90,6 +98,10 @@
     span {
         display: none;
     }
+
+    @media (max-width: 768px){
+        display: none;
+    }
 }
 
 .clients-carousel.owl-carousel .owl-nav button.owl-next {
@@ -112,6 +124,11 @@
     }
 
     span {
+        display: none;
+    }
+
+
+    @media (max-width: 768px){
         display: none;
     }
 }

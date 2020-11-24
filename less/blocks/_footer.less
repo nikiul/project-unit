@@ -1,20 +1,33 @@
 .footer {
     padding: 80px 0 65px;
     background-color: #1a1a1a;
+    width: 100%;   
+    
 }
 
 .footer-nav__wrapper {
     margin: 0 auto;
-    width: 770px;
+    width: 100%;
 
     display: flex;
     justify-content: center;
     align-items: baseline;
+
+    @media (max-width: 768px){
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 .nav-list {
     margin-right: 35px;
     display: flex;
+
+    @media (max-width: 768px){
+        margin-bottom: 20px;
+    }
 }
 
 .nav-item {
@@ -37,7 +50,7 @@
     }
 }
 
-.footer-socials {
+.footer-social {
     display: flex;
 }
 
